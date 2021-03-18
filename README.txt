@@ -1,1 +1,0 @@
-The subdirectories contained in this directory are for submitting the labs and homework for EBIO 4420/5420 to GitHub. They are arranged by lab (which are ordered by week in the class).
