@@ -49,14 +49,14 @@ gens2 <- 100 #more generatins for cooler plots
 init_pop1 <- 2500 #example initial population size
 
 # Testing the first function out:
-results_1 <- log_growth(r1, K1, gens1, init_pop)
+results_1 <- log_growth(r1, K1, gens1, init_pop1)
 results_1 #returns the population size over 12 generations, as expected
 
 # Testing the second function out:
-results_2 <- log_growth_plot(r1, K1, gens1, init_pop)
+results_2 <- log_growth_plot(r1, K1, gens1, init_pop1)
 
 # With more gens:
-results_3 <- log_growth_plot(r1, K1, gens2, init_pop)
+results_3 <- log_growth_plot(r1, K1, gens2, init_pop1)
 colnames(results_3) <- c("generations", "abundance")
 results_3
 
