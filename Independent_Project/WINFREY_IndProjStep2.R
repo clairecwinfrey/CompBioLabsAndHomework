@@ -338,7 +338,7 @@ ByCattISTable <- indSpecTable(myMultipatt=IndicByCatt, taxTable= gutTaxCleaned, 
 ByCattISTable[,c(5:6,8:10,13)] 
 
 #########################################################
-# 3. VISUALIZATION
+# 4. VISUALIZATION
 #########################################################
 
 # 1. Split up data by group: 
